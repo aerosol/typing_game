@@ -2,7 +2,7 @@ Cards = {}
 
 local cards = {
    -- FIXME figure out how to display ż
-   {word = "żyrafa", file = "img/zyrafa.jpeg"},
+   {word = "zyrafa", file = "img/zyrafa.jpeg"},
    {word = "kot",    file = "img/koteg.jpeg"},
    {word = "pies",   file = "img/pieseu.jpeg"}
 }

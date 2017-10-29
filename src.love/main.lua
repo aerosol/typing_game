@@ -3,7 +3,8 @@ local Game = require("game")
 function love.load()
    Game:initialize()
    Game:rotate_image()
-   love.graphics.setNewFont(22)
+   local f = love.graphics.newFont("font/Grundschrift-Normal.otf", 64)
+   love.graphics.setFont(f)
 end
 
 function love.textinput(t)
